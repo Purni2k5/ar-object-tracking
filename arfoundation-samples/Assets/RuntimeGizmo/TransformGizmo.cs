@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using coc;
 using CommandUndoRedo;
 using UnityEngine.Events;
 
@@ -12,7 +13,7 @@ namespace RuntimeGizmos
 	//For example, if you select an object that has children, move the children elsewhere, deselect the original object, then try to add those old children to the selection, I think it wont work.
 
 	[RequireComponent(typeof(Camera))]
-	public class TransformGizmo : MonoBehaviour
+	public class TransformGizmo : MonoBehaviour, ISettings
 	{
 		public TransformSpace space = TransformSpace.Global;
 		public TransformType transformType = TransformType.Move;
@@ -157,6 +158,7 @@ namespace RuntimeGizmos
 		void OnEnable()
 		{
 			forceUpdatePivotCoroutine = StartCoroutine(ForceUpdatePivotPointAtEndOfFrame());
+			Settings.Instance.RegisterSettings(this);
 		}
 
 		void OnDisable()
@@ -164,6 +166,8 @@ namespace RuntimeGizmos
 			ClearTargets(); //Just so things gets cleaned up, such as removing any materials we placed on objects.
 
 			StopCoroutine(forceUpdatePivotCoroutine);
+			
+			Settings.Instance.UnregisterSettings(this);
 		}
 
 		void OnDestroy()
@@ -1339,5 +1343,33 @@ namespace RuntimeGizmos
 			}
 		}
 		#endregion
+
+		public void RenderSettings()
+		{
+			if (GUILayout.Button("Position"))
+			{
+				transformType = TransformType.Move;
+			}
+			
+			if (GUILayout.Button("Rotation"))
+			{
+				transformType = TransformType.Rotate;
+			}
+			
+			if (GUILayout.Button("Scale"))
+			{
+				transformType = TransformType.Scale;
+			}
+			
+			if (GUILayout.Button(space.ToString()))
+			{
+				space = space == TransformSpace.Global ? TransformSpace.Local : TransformSpace.Global;
+			}
+		}
+
+		public string GetSettingsUid()
+		{
+			return gameObject.name + "TransformGizmo";
+		}
 	}
 }
