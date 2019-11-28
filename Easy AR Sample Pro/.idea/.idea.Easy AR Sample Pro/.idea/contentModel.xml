@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_Easy AR Sample Pro.-165445665.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="EasyAR" t="Include">
+          <e p="doc" t="Include">
+            <e p="changelog.cn.txt" t="Include" />
+            <e p="changelog.en.txt" t="Include" />
+            <e p="readme.cn.txt" t="Include" />
+            <e p="readme.en.txt" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ARMaterial.cs" t="Include" />
+            <e p="ARSession.cs" t="Include" />
+            <e p="ARShader.cs" t="Include" />
+            <e p="CameraImageRenderer.cs" t="Include" />
+            <e p="CloudRecognizeBehaviour.cs" t="Include" />
+            <e p="csapi.cs" t="Include" />
+            <e p="EasyARBehaviour.cs" t="Include" />
+            <e p="EasyARSettings.cs" t="Include" />
+            <e p="GUIPopup.cs" t="Include" />
+            <e p="ImageTargetController.cs" t="Include" />
+            <e p="ImageTrackerBehaviour.cs" t="Include" />
+            <e p="ObjectTargetController.cs" t="Include" />
+            <e p="ObjectTrackerBehaviour.cs" t="Include" />
+            <e p="RecorderBehaviour.cs" t="Include" />
+            <e p="SurfaceTargetController.cs" t="Include" />
+            <e p="SurfaceTrackerBehaviour.cs" t="Include" />
+            <e p="TouchController.cs" t="Include" />
+            <e p="Utility.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="bgr.shader" t="Include" />
+            <e p="gray.shader" t="Include" />
+            <e p="yuv_i420_yv12.shader" t="Include" />
+            <e p="yuv_nv12.shader" t="Include" />
+            <e p="yuv_nv21.shader" t="Include" />
+          </e>
+        </e>
+        <e p="mars-base" t="Include">
+          <e p="Parameters.cs" t="Include" />
+          <e p="SceneSelector.cs" t="Include" />
+          <e p="Settings.cs" t="Include" />
+          <e p="SettingsSizer.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Easy AR Sample Pro.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

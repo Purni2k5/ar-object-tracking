@@ -1,0 +1,14 @@
+# Blender MTL File: 'mars-base.blend'
+# Material Count: 1
+
+newmtl Material_u1_v1
+Ns 3.921569
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.000000
+illum 1
+map_Kd mars-base.jpg
+map_d mars-base.jpg

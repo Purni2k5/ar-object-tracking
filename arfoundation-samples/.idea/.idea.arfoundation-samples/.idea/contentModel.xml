@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_arfoundation-samples.263030943.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="arfoundation-samples.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Application" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Utility" t="Include">
+              <e p="Paramaters.cs" t="Include" />
+              <e p="Settings.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RuntimeGizmo" t="Include">
+          <e p="Custom" t="Include">
+            <e p="TransformGizmoCustomGizmo.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="ExtMathf.cs" t="Include" />
+            <e p="ExtTransform.cs" t="Include" />
+            <e p="ExtTransformType.cs" t="Include" />
+            <e p="ExtVector3.cs" t="Include" />
+            <e p="Geometry.cs" t="Include" />
+          </e>
+          <e p="Objects" t="Include">
+            <e p="AxisInfo.cs" t="Include" />
+            <e p="AxisVectors.cs" t="Include" />
+            <e p="Commands" t="Include">
+              <e p="SelectCommand.cs" t="Include" />
+              <e p="TransformCommand.cs" t="Include" />
+            </e>
+            <e p="Enums.cs" t="Include" />
+            <e p="IntersectPoints.cs" t="Include" />
+            <e p="Square.cs" t="Include" />
+            <e p="TargetInfo.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="Resources" t="Include">
+              <e p="Lines.shader" t="Include" />
+              <e p="Outline.shader" t="Include" />
+            </e>
+          </e>
+          <e p="TransformGizmo.cs" t="Include" />
+          <e p="UndoRedo" t="Include">
+            <e p="CommandGroup.cs" t="Include" />
+            <e p="DropoutStack.cs" t="Include" />
+            <e p="ICommand.cs" t="Include" />
+            <e p="UndoRedo.cs" t="Include" />
+            <e p="UndoRedoManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="ARCollaborationData" t="Include">
+            <e p="CollaborationNetworkingIndicator.cs" t="Include" />
+            <e p="CollaborativeSession.cs" t="Include" />
+            <e p="DisplayTrackingState.cs" t="Include" />
+            <e p="ReferencePointInfoManager.cs" t="Include" />
+          </e>
+          <e p="ARKitCoachingOverlay" t="Include">
+            <e p="ARKitCoachingOverlay.cs" t="Include" />
+          </e>
+          <e p="FaceTracking" t="Include">
+            <e p="DisplayFaceInfo.cs" t="Include" />
+            <e p="ToggleManagers.cs" t="Include" />
+          </e>
+          <e p="ImageTracking" t="Include">
+            <e p="TrackedImageInfoManager.cs" t="Include" />
+          </e>
+          <e p="Object Tracking" t="Include">
+            <e p="Printable Templates" t="Include">
+              <e p="README.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Plane Detection" t="Include">
+            <e p="PlaneClassificationLabeler.cs" t="Include" />
+          </e>
+          <e p="PlaneOcclusion" t="Include">
+            <e p="PlaneOcclusionShader.shader" t="Include" />
+          </e>
+          <e p="PointCloud" t="Include">
+            <e p="ARAllPointCloudPointsParticleVisualizer.cs" t="Include" />
+            <e p="SwitchPointCloudVisualizationMode.cs" t="Include" />
+          </e>
+          <e p="SimpleAR" t="Include">
+            <e p="SessionReloader.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="ARCoreFaceRegionManager.cs" t="Include" />
+          <e p="ARFeatheredPlaneMeshVisualizer.cs" t="Include" />
+          <e p="ARKitBlendShapeVisualizer.cs" t="Include" />
+          <e p="ARWorldMapController.cs" t="Include" />
+          <e p="BoneController.cs" t="Include" />
+          <e p="CameraConfigController.cs" t="Include" />
+          <e p="DisableVerticalPlanes.cs" t="Include" />
+          <e p="EnvironmentProbeVisualizer.cs" t="Include" />
+          <e p="EyePoseVisualizer.cs" t="Include" />
+          <e p="EyeTrackingUI.cs" t="Include" />
+          <e p="FaceMaterialSwitcher.cs" t="Include" />
+          <e p="FixationPoint2DVisualizer.cs" t="Include" />
+          <e p="FixationPoint3DVisualizer.cs" t="Include" />
+          <e p="HumanBodyTracker.cs" t="Include" />
+          <e p="LightEstimation.cs" t="Include" />
+          <e p="LightEstimationUI.cs" t="Include" />
+          <e p="Logger.cs" t="Include" />
+          <e p="MakeAppearOnPlane.cs" t="Include" />
+          <e p="PlaceMultipleObjectsOnPlane.cs" t="Include" />
+          <e p="PlaceOnPlane.cs" t="Include" />
+          <e p="PlaneDetectionController.cs" t="Include" />
+          <e p="ReferencePointCreator.cs" t="Include" />
+          <e p="RotationController.cs" t="Include" />
+          <e p="ScaleController.cs" t="Include" />
+          <e p="ScreenSpaceJointVisualizer.cs" t="Include" />
+          <e p="SupportChecker.cs" t="Include" />
+          <e p="TestBodyAnchorScale.cs" t="Include" />
+          <e p="TestCameraImage.cs" t="Include" />
+          <e p="TestDepthImage.cs" t="Include" />
+          <e p="UX" t="Include">
+            <e p="FadePlaneOnBoundaryChange.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="FeatheredPlaneShader.shader" t="Include" />
+        </e>
+        <e p="TestObjectTracking.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

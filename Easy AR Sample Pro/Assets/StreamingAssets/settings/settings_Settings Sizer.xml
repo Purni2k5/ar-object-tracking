@@ -1,0 +1,11 @@
+﻿<pairs>
+    <pair>
+        <key>font_size</key>
+        <serial_value>
+            <ParamOfInt32>
+                <Type>Int32</Type>
+                <Val>43</Val>
+            </ParamOfInt32>
+        </serial_value>
+    </pair>
+</pairs>
