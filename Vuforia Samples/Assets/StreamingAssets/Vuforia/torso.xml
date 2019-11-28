@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="torso" motionHint="static"/>
+
+</Tracking>
+
+<Assembly name="torsos_assembly" assemblyId="a778348f97c147e6868d8c0b4137ea2e">
+<Part name="torso" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="0.023536 0.199061 0.824632" rotation="AD: 0.11318034385642126 1.6632505992966666 -1.2433861004026556 175.341" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
